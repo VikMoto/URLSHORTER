@@ -1,8 +1,5 @@
 package com.bestteam.urlshorter.auth;
 
-
-
-import com.bestteam.urlshorter.auth.AuthenticationRequest;
 import com.bestteam.urlshorter.models.UserUrl;
 import com.bestteam.urlshorter.service.UserDetailsServiceImpl;
 import lombok.RequiredArgsConstructor;
@@ -16,8 +13,6 @@ import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
-
-;
 
 
 @Service
