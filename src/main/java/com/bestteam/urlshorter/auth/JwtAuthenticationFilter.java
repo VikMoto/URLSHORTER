@@ -1,6 +1,7 @@
-package com.bestteam.urlshorter.config;
+package com.bestteam.urlshorter.auth;
 
-import com.bestteam.urlshorter.auth.token.TokenRepository;
+import com.bestteam.urlshorter.repository.TokenRepository;
+import com.bestteam.urlshorter.service.JwtService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

@@ -1,8 +1,6 @@
-package com.bestteam.urlshorter.auth.token;
+package com.bestteam.urlshorter.models;
 
 
-
-import com.bestteam.urlshorter.models.UserUrl;
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -82,4 +80,8 @@ public class Token {
   @JsonBackReference
   @JoinColumn(name = "userurl_id")
   public UserUrl userUrl;
+
+  public enum TokenType {
+    BEARER
+  }
 }

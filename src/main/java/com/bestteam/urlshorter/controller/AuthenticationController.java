@@ -1,6 +1,10 @@
-package com.bestteam.urlshorter.auth;
+package com.bestteam.urlshorter.controller;
 
 
+import com.bestteam.urlshorter.auth.AuthenticationRequest;
+import com.bestteam.urlshorter.auth.AuthenticationResponse;
+import com.bestteam.urlshorter.auth.RegistrationRequest;
+import com.bestteam.urlshorter.service.AuthenticationService;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.context.annotation.Lazy;
